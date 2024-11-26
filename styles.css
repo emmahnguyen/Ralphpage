@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+.content-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.content-section h2, .content-section h3 {
+  font-size: 1.8em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph fade effect */
+.fade-paragraph {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out, transform 1s ease;
+  transform: translateY(10px);
+}
+
+.fade-paragraph.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Experience list styling */
+.experience-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.experience-list li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Form styling */
+.question-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.question-form input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.question-form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.question-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Link styling */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
